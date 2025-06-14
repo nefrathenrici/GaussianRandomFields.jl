@@ -1,5 +1,7 @@
 ## test_plot.jl : test plotting commands
 
+ENV["GKSwstype"] = "100"
+
 @testset "Random field plotting    " begin
 
     ## 1D ##
